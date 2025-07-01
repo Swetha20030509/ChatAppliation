@@ -18,3 +18,10 @@ Tables used in the application include:
 - **users** – stores user credentials and profile information
 - **friend_requests** – manages pending and accepted requests
 - **messages** – stores chat messages between users
+---
+# Login Page #
+![login image](https://github.com/Swetha20030509/ChatAppliation/blob/main/chatApplication/screenshot/login.jpg)
+# search Page #
+![search result]()
+# Chat Page #
+![chat page]()
