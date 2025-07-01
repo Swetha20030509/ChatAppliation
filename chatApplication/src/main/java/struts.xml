@@ -1,0 +1,50 @@
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <package name="default" extends="struts-default,json-default">
+        <action name="Login" class="loginPage.LoginAction">
+            <result name="success">index.jsp</result>  
+             <result name="error" type="redirect">login.jsp</result> 
+        </action>
+        <action name="SignUp" class="signupPage.SignUpAction">
+        <result name="success">index.jsp</result>
+        </action>
+         <action name="Search" class="DAO.SearchUser">
+          <result name="success">searchFragment.jsp</result>  
+         </action>
+          <action name="request" class="action.Friendrequest">
+         <result name="success">index.jsp</result>
+         </action>
+          <action name="viewrequest" class="action.Request" >
+          <result name="success">displayRequest.jsp</result>
+          </action>
+           <action name="acceptrequest" class="action.Friendrequest" method="acceptRequests">
+          <result name="success">index.jsp</result>
+          </action>
+           <action name="opencontact" class="action.Contact">
+          <result name="success">contact.jsp</result>
+         </action>
+           <action name="retrieve" class="action.SendMessage" method="retrieveMessage">
+         	 <result name="success" type="json">
+               
+            </result>
+          </action>
+          <action name="send" class="action.SendMessage" method="storeMessage">
+          <result name="success">chatpage.jsp</result>
+          </action>
+            
+            <action name="updateProfile" class="action.UpdateProfileAction">
+    <interceptor-ref name="fileUpload">
+        <param name="allowedTypes">image/png,image/jpeg</param>
+        <param name="maximumSize">5242880</param>
+    </interceptor-ref>
+    
+    <interceptor-ref name="defaultStack"/> <!-- this is required -->
+
+    <result name="success">index.jsp</result>
+   
+</action>
+            
+            
+    </package>
+</struts>
