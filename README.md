@@ -9,8 +9,12 @@
 - **Request Management:** Accept or reject friend requests directly from notifications.
 ---
 ## 🛠️ Tools & Technologies Used ##
-
-
+- JAVA
+- MYSQL
+- STRUTS 2
+- HTML
+- CSS
+- JAVASCRIPT
 ---
 
 ## 📂 Database Overview ##
@@ -22,7 +26,7 @@ Tables used in the application include:
 # Login Page #
 ![login image](https://github.com/Swetha20030509/ChatAppliation/blob/main/chatApplication/screenshot/login.jpg)
 # User Profile #
-![user profile update]()
+![user profile update](https://github.com/Swetha20030509/ChatAppliation/blob/main/chatApplication/screenshot/profile.jpg)
 # search Page #
 ![search result](https://github.com/Swetha20030509/ChatAppliation/blob/main/chatApplication/screenshot/search.jpg)
 # Chat Page #
