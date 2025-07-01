@@ -21,7 +21,9 @@ Tables used in the application include:
 ---
 # Login Page #
 ![login image](https://github.com/Swetha20030509/ChatAppliation/blob/main/chatApplication/screenshot/login.jpg)
+# User Profile #
+![user profile update]()
 # search Page #
 ![search result](https://github.com/Swetha20030509/ChatAppliation/blob/main/chatApplication/screenshot/search.jpg)
 # Chat Page #
-![chat page]()
+![chat page](https://github.com/Swetha20030509/ChatAppliation/blob/main/chatApplication/screenshot/chat.jpg)
