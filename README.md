@@ -1,4 +1,4 @@
-# ChatAppliation #
+# ChatApplication #
 ##### The Chat Application is a web-based real-time messaging platform that allows users to communicate with each other after establishing a connection through friend requests. The application supports essential features like login/signup, user search, profile management, friend request handling, and one-to-one chatting. #####
 ---
 - **User Authentication:** Secure login and signup system for new and returning users.
